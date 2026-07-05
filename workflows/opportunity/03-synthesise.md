@@ -50,6 +50,8 @@ The brief is a **stakeholder deliverable**. It must be a properly structured Wor
 - **Primary path — Anthropic `docx` skill.** Use it to build the document with real heading styles (Title, Heading 1/2), body styles, a metadata block, and tables for the competitor analysis and stack-rank. Verify it opens cleanly in Word and Google Docs.
 - **Fallback — `python-docx`** (for anyone running this outside Claude): build the same structure programmatically. Map each brief section to a Word heading; use `add_table` for competitor analysis and the HMW stack-rank; apply consistent styles. See <https://python-docx.readthedocs.io/>.
 
+**Design bar — the brief is marketing as much as substance.** Default python-docx/plain-Word output is not acceptable. Style it like a consulting deliverable: borrow the company's brand palette (e.g. their navy + accent colour), a designed title block (status chip, title, coloured subtitle, metadata strip), colour-barred callout boxes for the BLUF / key insights / open TBAs, banded tables with a solid header row instead of full grids, and a footer with author + page numbers. A stakeholder should locate the thesis and the open questions in a three-second skim.
+
 **Formatting checklist:**
 - [ ] Title + metadata block at the top (author, contributors, date).
 - [ ] BLUF visually distinct (e.g. a callout/quote style or bold lead).
