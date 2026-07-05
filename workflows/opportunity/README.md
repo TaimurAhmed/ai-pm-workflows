@@ -53,6 +53,13 @@ The full template lives in [`templates/opportunity-brief.template.md`](templates
 
 ---
 
+## Worked example
+
+A real end-to-end run — walked journey → populated canvas → brief, answering a live interview prompt:
+**[Checkatrade: Barriers to repeat usage](examples/checkatrade-repeat-usage.md)**
+
+---
+
 ## ⚠️ Template files you supply
 
 Two template files are referenced here. Working **example** versions ship in `templates/` so the workflow runs out of the box — **replace them with your own** when ready (each file is marked at the top):
