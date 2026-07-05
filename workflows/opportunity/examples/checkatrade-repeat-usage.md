@@ -1,6 +1,6 @@
 # Worked example — Checkatrade: Barriers to repeat usage
 
-*A real end-to-end run of the Opportunity Workflow (July 2026): a first-hand walked journey → populated canvas → this brief. Produced in response to a live interview prompt; researched via the [Researcher Workflow](../../researcher/) (Companies House filings, pricing pages). Author: Taimur Ahmed · Contributor: Claude, driven by this repo's prompts.*
+*A real end-to-end run of the Opportunity Workflow (July 2026): a first-hand walked journey → populated canvas → this brief. Produced in response to a live interview prompt; researched via the [Researcher Workflow](../../researcher/) (Companies House filings, pricing pages). Author: Taimur Ahmed · Contributor: Claude, driven by this repo's prompts · Date: 5 July 2026 · Time-box: 90 minutes.*
 
 ---
 
