@@ -42,6 +42,7 @@ Workflows are added incrementally. Status: ✅ complete · 🚧 coming soon.
 
 | Workflow | What it produces | Status |
 |---|---|---|
+| [Mental Model Workflow](workflows/mental-model/) | Orientation pass: ecosystem → company mission → product purpose → North Star | 🚧 WIP |
 | [Opportunity Workflow](workflows/opportunity/) | Opportunity Canvas → Opportunity Brief | ✅ Complete |
 | [Ideation Workflow](workflows/ideation/) | Stack-ranked HMWs → candidate solution directions | 🚧 Coming soon |
 | [Solution Workflow](workflows/solution/) | Solution Canvas → Solution Doc | 🚧 Coming soon |

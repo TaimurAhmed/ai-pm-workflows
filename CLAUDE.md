@@ -43,6 +43,7 @@ When a step requires a Word document:
 
 ## Available workflows
 
+- `workflows/mental-model/` — 🚧 **Mental Model Workflow** (WIP stub — orientation pass before any other workflow)
 - `workflows/opportunity/` — ✅ **Opportunity Workflow** (Generate → Populate → Synthesise → Opportunity Brief)
 - `workflows/ideation/` — 🚧 **Ideation Workflow** (stub)
 - `workflows/solution/` — 🚧 **Solution Workflow** (stub)
