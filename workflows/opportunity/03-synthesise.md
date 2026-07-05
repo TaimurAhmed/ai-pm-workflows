@@ -50,6 +50,10 @@ The brief is a **stakeholder deliverable**. It must be a properly structured Wor
 - **Primary path — Anthropic `docx` skill.** Use it to build the document with real heading styles (Title, Heading 1/2), body styles, a metadata block, and tables for the competitor analysis and stack-rank. Verify it opens cleanly in Word and Google Docs.
 - **Fallback — `python-docx`** (for anyone running this outside Claude): build the same structure programmatically. Map each brief section to a Word heading; use `add_table` for competitor analysis and the HMW stack-rank; apply consistent styles. See <https://python-docx.readthedocs.io/>.
 
+**The template is a tool, not gospel.** The brief template is a *starting shape*. When the PM's structure argues better — RICE instead of a stack-rank, a Now/Next/Later/Parked roadmap instead of an HMW list, customer voice quotes instead of an empathy grid — the PM's structure wins and you adapt to it. Never force content back into template sections the thinking has outgrown; the template serves the argument, not the other way round.
+
+**docx is the only road into Google Docs.** Never push raw HTML at Drive (it mangles styling); never rely on markdown paste (it mangles tables). Build the `.docx` with the house-style module at [`templates/brief-style.py`](templates/brief-style.py) — a parameterised design system (adapt the palette to the target company's brand per run) — and let the user import it via Google Docs → File → Open → Upload.
+
 **Design bar — the brief is marketing as much as substance.** Default python-docx/plain-Word output is not acceptable. Style it like a consulting deliverable: borrow the company's brand palette (e.g. their navy + accent colour), a designed title block (status chip, title, coloured subtitle, metadata strip), colour-barred callout boxes for the BLUF / key insights / open TBAs, banded tables with a solid header row instead of full grids, and a footer with author + page numbers. A stakeholder should locate the thesis and the open questions in a three-second skim.
 
 **Formatting checklist:**

@@ -55,5 +55,6 @@ _(empty — for the team)_
 - **Slot frameworks in and out freely** — stack-rank on SWAGs? Cool. Quotes over JTBD? Happy days.
 - **Time-box exceeded? Skip a step.** Bias to action — analysis paralysis kills more opportunities than bad ranking does.
 - **This is not a sequence.** It's an artifact for capturing insight however your team works — no magic order of conversation produces a silver-bullet opportunity.
+- **A tool, not gospel.** Every box, tip, and downstream template is a starting shape — depart from it whenever your thinking argues better, and let the artifacts follow your structure.
 
 > 🔚 The canvas ends at the stack-rank. Ideation — generating and shaping solutions — happens **off-canvas**, in the Ideation Workflow.

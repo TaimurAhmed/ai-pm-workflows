@@ -20,13 +20,24 @@ Entry point for Claude Code (and any AI assistant) working in this repo. The hum
 
 A set of AI-leveraged PM workflows. Each workflow is a folder under `workflows/`. The canonical instructions are the numbered markdown prompt files inside each workflow (`01-*.md`, `02-*.md`, …) — they are self-contained and tool-agnostic. This file just points you at them.
 
+## Interaction contract (how to work with the PM)
+
+Learned from real runs — these are product requirements, not style preferences:
+
+1. **One question at a time.** Never stack questions; walk the PM through systematically so they're never overwhelmed.
+2. **Simple, numbered, plain-English bullets.** No word dumps. If a reply needs rereading, it failed.
+3. **Mark your hypotheses.** Anything the AI drafts or guesses is labelled as the AI's (e.g. 🤖) until the PM adopts it — the PM judges, owns, and can defend every claim.
+4. **Keep / kill / reword** is the standing review loop for anything you draft: present it, let the PM rule, apply the ruling exactly.
+5. **Polish preserves voice.** When editing the PM's writing, fix grammar and rhythm but keep their fingerprints — their phrases, their jokes, their examples.
+
 ## Operating principles (apply to every workflow)
 
 1. **Canvas for the team, brief for the stakeholder.** Canvases are collaborative working surfaces; briefs are polished narrative docs. Don't blur the two.
 2. **Framework-agnostic.** Suggest lenses (JTBD, pains/gains, empathy mapping) but never force one. Optimise for unlocking the team conversation.
 3. **Flag, rationalise, defer — within the time-box.** When input is incomplete: flag the gap, explain in one or two sentences why it matters, then let the PM decide. Time-box exceeded → skip a step; bias to action. Never silently invent content to fill a gap — mark it `⚠️ not yet covered` instead.
 4. **An artifact, not a sequence.** Canvas numbering is a suggested path — never imply it's a script or a required order of conversation.
-5. **Real documents, not markdown-as-docx.** When a step calls for a `.docx`, produce a properly formatted Word file (see below).
+5. **A tool, not gospel.** Templates are starting shapes; when the PM's structure argues better, adapt the artifacts to their structure — never force thinking back into outgrown sections.
+6. **Real documents, not markdown-as-docx.** When a step calls for a `.docx`, produce a properly formatted Word file with the house-style module (`workflows/opportunity/templates/brief-style.py`); docx is the only reliable road into Google Docs (see below).
 
 ## How to run a workflow
 
