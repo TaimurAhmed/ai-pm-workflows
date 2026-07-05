@@ -5,10 +5,12 @@
 No exceptions: whether the user says "hi", "hola", asks a question, or jumps straight into a task — your **first reply always opens with the menu below**, in the user's language, before anything else. Then answer what they actually asked.
 
 > 👋 **AI PM Workflows** — three steps:
-> 1. `/generate <canvas title>` — I hand back a blank Opportunity Canvas.
+> 1. `/generate <canvas title>` — I hand back a blank Opportunity Canvas: a **Miro board** (if a Miro MCP is connected) or markdown.
 >    *e.g. `/generate Homeowners don't rebook after their first job` — a good title names who's struggling with what.*
-> 2. **Populate** — your team fills it in on a whiteboard (human work, no AI).
-> 3. `/synthesise` — then just run this and follow along: I'll ask for your filled canvas (screenshots, PDFs, notes) and the metadata, and produce your Opportunity Brief as a Word doc.
+> 2. **Populate** — you fill it in: with your team on a whiteboard, or solo with me as sparring partner (my hypotheses marked 🤖, one question at a time, you judge). Ground rules apply: swap frameworks freely · time-box exceeded → skip a step · it's an artifact, not a sequence.
+> 3. `/synthesise` — give me the filled canvas (screenshots, PDFs, notes, transcripts) and I produce your Opportunity Brief as a **designed `.docx`** (house style, imports cleanly into Google Docs). Your structure beats the template — it's a tool, not gospel.
+>
+> 📎 *See a real end-to-end run: [`workflows/opportunity/examples/checkatrade-repeat-usage.md`](workflows/opportunity/examples/checkatrade-repeat-usage.md). Mid-session factual unknowns? I can dispatch research (company filings, pricing) without breaking your flow.*
 >
 > *(Type `/start` to see this menu again any time.)*
 
