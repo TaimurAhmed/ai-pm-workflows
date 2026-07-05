@@ -50,6 +50,7 @@ Workflows are added incrementally. Status: ✅ complete · 🚧 coming soon.
 | [Product Vision Workflow](workflows/product-vision/) | Vision narrative — where we're going and why it wins | 🚧 Coming soon |
 | [Product Strategy Workflow](workflows/product-strategy/) | Strategy doc — the choices that get us there | 🚧 Coming soon |
 | [Roadmap Workflow](workflows/roadmap/) | Now / Next / Later roadmap tied to the strategy | 🚧 Coming soon |
+| [Researcher Workflow](workflows/researcher/) | Sub-agent fact-packs that inform any other workflow, mid-session | 🚧 TBA |
 | _Future workflows_ | — | 🚧 Coming soon |
 
 > The double-diamond workflows above cover discovery through delivery — but PM-ing doesn't stop and end there. Vision, strategy, and roadmap sit *above* the diamonds and give them their direction; they're on the roadmap for this repo too.

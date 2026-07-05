@@ -51,3 +51,4 @@ When a step requires a Word document:
 - `workflows/product-vision/` — 🚧 **Product Vision Workflow** (stub)
 - `workflows/product-strategy/` — 🚧 **Product Strategy Workflow** (stub)
 - `workflows/roadmap/` — 🚧 **Roadmap Workflow** (stub)
+- `workflows/researcher/` — 🚧 **Researcher Workflow** (TBA stub — dispatchable research sub-agent supporting any workflow)
