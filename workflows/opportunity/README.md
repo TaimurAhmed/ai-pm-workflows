@@ -26,17 +26,17 @@
 
 ## Canvas schema (overview)
 
-The full schema lives in [`templates/opportunity-canvas.md`](templates/opportunity-canvas.md). Sections, in order:
+The full schema lives in [`templates/opportunity-canvas.md`](templates/opportunity-canvas.md). The boxes — **deliberately unnumbered; start anywhere**:
 
-1. **Customer problem & desire — the opportunity** — what they're trying to do; problems + desires = opportunities (Torres).
-2. **Empathy pass** — say / think / do / feel, on real evidence; guesses marked as guesses.
-3. **User & customer cohorts** — each side of the platform; you design for a specific cohort.
-4. **Solutions today** — competitors, operational processes, existing features — or living with it.
-5. **Why the business should care** — a number the business tracks; cost of doing nothing; t-shirt sizing or TAM.
-6. **How might we…?** — HMW questions from boxes 1–5, each mapped back to its box.
-7. **Impact stack-rank** — rank the HMWs; tees up ideation (off-canvas).
+- **Why should the customer care? — Problems + desires = customer opportunity** — motivation → desire + problem → the opportunity (Torres).
+- **Empathy mapping** — context (what/why/when/where/how, feelings), then gains and pains, collaboratively.
+- **User & customer cohorts** — each side of the platform; you design for a specific cohort.
+- **Solutions today** — competitors, operational processes, existing features — or living with it.
+- **Why the business should care** — a number the business tracks; cost of doing nothing; t-shirt sizing or TAM.
+- **How might we…?** — HMW questions from across the canvas, each mapped back to its box by name.
+- **Impact stack-rank** — rank the HMWs; tees up ideation (off-canvas).
 
-Ground rules sit outside the canvas: frameworks slot in and out freely · time-box exceeded → skip a step · it's an insight-capture artifact, not a sequence.
+Ground rules sit outside the canvas: frameworks slot in and out freely · time-box exceeded → skip a step · no numbers, no sequence — an insight-capture artifact · a tool, not gospel.
 
 ---
 

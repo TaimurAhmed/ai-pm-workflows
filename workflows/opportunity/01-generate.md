@@ -6,7 +6,7 @@
 
 **Inputs:** a canvas title (who's struggling with what), plus optionally the team involved and a session time-box.
 
-**The schema is canonical.** Section order, titles, tips, and ground rules come verbatim from [`templates/opportunity-canvas.md`](templates/opportunity-canvas.md). Do not invent, reword, or "improve" them — the template is designed; your job is to instantiate it.
+**The schema is canonical.** Box titles, tips, and ground rules come verbatim from [`templates/opportunity-canvas.md`](templates/opportunity-canvas.md) — the boxes are deliberately unnumbered (no prescribed order; refer to them by name). Do not invent, reword, or "improve" them — the template is designed; your job is to instantiate it.
 
 ---
 
@@ -22,7 +22,7 @@
 ## Process
 
 1. If no canvas title was given, ask: "What should this canvas be called? A good title names who's struggling with what — e.g. 'Homeowners don't rebook after their first job'." Also ask (once, briefly) for the team involved and the session time-box; if the user skips these, proceed and flag them ⚠️ on the canvas rather than stalling.
-2. Instantiate the template: all 7 sections, each **empty**, with its tip; ground rules outside the canvas; title, team, and time-box filled in.
+2. Instantiate the template: all seven boxes, each **empty**, with its tip; ground rules outside the canvas; title, team, and time-box filled in.
 3. Tell the user where everything is and what happens next: **Step 2 · Populate** — their team fills it in on a whiteboard, then they run `/synthesise` with the results.
 
 ## Do / Don't

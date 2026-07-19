@@ -1,5 +1,5 @@
 {
-  "$comment": "Fixed Miro layout for the Opportunity Canvas. Coordinates are TOP-LEFT based in Miro px with the artifact's top-left at (0,0). Miro's API positions items by CENTRE: centre_x = x + w/2, centre_y = y + h/2. Place items verbatim — do not improvise geometry. Titles/tips must match templates/opportunity-canvas.md.",
+  "$comment": "Fixed Miro layout for the Opportunity Canvas. Coordinates are TOP-LEFT based in Miro px with the artifact's top-left at (0,0). Miro's API positions items by CENTRE: centre_x = x + w/2, centre_y = y + h/2. Place items verbatim — do not improvise geometry. Titles/tips must match templates/opportunity-canvas.md. Boxes are deliberately unnumbered (no prescribed order); the 'cell' field is an internal layout key only and must never appear on the board.",
   "board_name": "Opportunity Canvas: <run folder name>",
   "style": {
     "cell": { "shape": "rectangle", "fill": "#F6F5F2", "border": "#A8A49A", "border_width": 1.5 },
@@ -20,19 +20,19 @@
     "fields": ["Team: _______", "Time-box: _______"]
   },
   "cells": [
-    { "n": 1, "title": "1. Customer problem & desire — the opportunity", "x": 0, "y": 200, "w": 700, "h": 1200,
-      "tip": "Tip: what's the customer trying to do — where, when, why? What gets in the way = the problem. What they wish were true = the desire. Problems + desires = opportunities (Teresa Torres)." },
-    { "n": 2, "title": "2. Empathy pass", "x": 700, "y": 200, "w": 725, "h": 600,
-      "tip": "Tip: what do they say / think / do / feel? Use real evidence — customer quotes, interviews, research, session recordings, anecdotal observations. Mark the rest as guesses. Pains and gains feed back into box 1." },
-    { "n": 3, "title": "3. User & customer cohorts", "x": 700, "y": 800, "w": 725, "h": 600,
-      "tip": "Tip: dealing with a multi-sided platform? Think through each side at a high level. Slice however it helps — channel, market, behaviour, attitude. No hard rules. You're designing for a specific cohort, even when the feature is exposed to everyone. Struggling? Map back to box 1." },
-    { "n": 4, "title": "4. Solutions today", "x": 1425, "y": 200, "w": 675, "h": 1200,
+    { "cell": "opportunity", "title": "Why should the customer care? — Problems + desires = customer opportunity", "x": 0, "y": 200, "w": 700, "h": 1200,
+      "tip": "Tip: start with what's motivating the customer. Then: what do they wish were true (the desire), and what gets in the way of getting it done (the problem)? Problem + desire = the opportunity. E.g. — I'm motivated to eat healthy. It's hard to figure out what's healthy (problem). I want something tasty (desire). Opportunity: help me find tasty food that's nutritionally simple to understand. A problem alone leads to a salad; the opportunity leads to a chocolate fudge protein shake. The customer hires what overlaps both." },
+    { "cell": "empathy", "title": "Empathy mapping", "x": 700, "y": 200, "w": 725, "h": 600,
+      "tip": "Tip: think through the what, why, when, where, how — and what they're feeling while doing, seeing, hearing — until you understand the customer's context (easy to go over the top). Then collaboratively list the gains (wants and needs — the measures of success) and pains (frustrations, anxieties, fears). Struggling with the opportunity box? Start here — this is never a sequential process :)" },
+    { "cell": "cohorts", "title": "User & customer cohorts", "x": 700, "y": 800, "w": 725, "h": 600,
+      "tip": "Tip: dealing with a multi-sided platform? Think through each side at a high level. Slice however it helps — channel, market, behaviour, attitude. No hard rules. You're designing for a specific cohort, even when the feature is exposed to everyone. Struggling? Map back to the opportunity box." },
+    { "cell": "solutions-today", "title": "Solutions today", "x": 1425, "y": 200, "w": 675, "h": 1200,
       "tip": "Tip: how do they solve this today? Competitors, an operational process, or existing features on the current product — or they just live with it. What works well about today's way? You'll have to beat that, or keep it." },
-    { "n": 5, "title": "5. Why the business should care", "x": 0, "y": 1400, "w": 2100, "h": 600,
-      "tip": "Tip: tie it to a number the business already tracks — retention, GMV, support costs, whatever fits. What does it cost us to do nothing? A rough back-of-envelope t-shirt sizing of reach and impact — or even a TAM — beats \"big opportunity\"." },
-    { "n": 6, "title": "6. How might we…?", "x": 2100, "y": 200, "w": 525, "h": 1800,
-      "tip": "Tip: turn what you learned in boxes 1–5 into \"How might we…\" questions — note which box each maps back to." },
-    { "n": 7, "title": "7. Impact stack-rank", "x": 2625, "y": 200, "w": 575, "h": 1800,
+    { "cell": "business", "title": "Why the business should care", "x": 0, "y": 1400, "w": 2100, "h": 600,
+      "tip": "Tip: tie it to a number the business already tracks — retention, GMV, support costs, whatever fits. What does it cost us to do nothing? A rough back-of-envelope t-shirt sizing of reach and impact — or even a TAM — beats 'big opportunity'." },
+    { "cell": "hmw", "title": "How might we…?", "x": 2100, "y": 200, "w": 525, "h": 1800,
+      "tip": "Tip: turn what you learned across the canvas into 'How might we…' questions — note which box each maps back to." },
+    { "cell": "stack-rank", "title": "Impact stack-rank", "x": 2625, "y": 200, "w": 575, "h": 1800,
       "tip": null }
   ],
   "ground_rules": {
@@ -41,7 +41,8 @@
     "rules": [
       "Slot frameworks in and out freely — stack-rank on SWAGs? Cool. Quotes over JTBD? Happy days.",
       "Time-box exceeded? Skip a step. Bias to action — analysis paralysis kills more opportunities than bad ranking does.",
-      "This is not a sequence. It's an artifact for capturing insight however your team works — no magic order of conversation produces a silver-bullet opportunity."
+      "This is not a sequence — the boxes carry no numbers on purpose. Start anywhere, jump anywhere; no magic order of conversation produces a silver-bullet opportunity.",
+      "A tool, not gospel — depart from any box or template whenever your thinking argues better."
     ]
   },
   "ideation_note": { "x": 2625, "y": 2060, "w": 575, "text": "→ tees up ideation (off-canvas)" }

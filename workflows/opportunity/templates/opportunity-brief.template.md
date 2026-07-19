@@ -26,10 +26,10 @@ own brief template when ready. Placeholders use {{double-brace}} notation and
 ## SCQA narrative
 
 ### Why the customer cares
-- **The opportunity (canvas box 1):** {{what the customer is trying to do; the problem in the way; the desire}}
-- **Cohorts (canvas box 3):** {{which cohorts, and how the opportunity differs across them}}
-- **Empathy evidence (canvas box 2):** {{what they say / think / do / feel — quotes, interviews, research; guesses marked as guesses}}
-- **Pains / gains:** {{key pains today; gains a solution would unlock}}
+- **The opportunity (opportunity box):** {{the customer's motivation; the problem in the way; the desire; problem + desire = the opportunity}}
+- **Cohorts (cohorts box):** {{which cohorts, and how the opportunity differs across them}}
+- **Empathy evidence (empathy box):** {{context and feelings — quotes, interviews, research; guesses marked as guesses}}
+- **Pains / gains:** {{key pains (frustrations, anxieties, fears); gains (wants, needs — measures of success)}}
 
 ### Why the business cares
 - **Impact:** {{what this problem costs the business today}}

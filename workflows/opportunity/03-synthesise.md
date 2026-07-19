@@ -34,12 +34,12 @@ This is the *canvas → brief* translation: from the team's working surface into
 1. **Metadata** — title, author, contributors, date.
 2. **BLUF** — the full thesis in 3–5 lines, up top.
 3. **SCQA narrative:**
-   - *Why the customer cares* — the opportunity (canvas box 1) → cohorts (box 3) → empathy evidence (box 2) → pains/gains.
+   - *Why the customer cares* — the opportunity (opportunity box) → cohorts (cohorts box) → empathy evidence (empathy box) → pains/gains.
    - *Why the business cares* — impact → potential.
    - *Competitor analysis* — solutions today.
 4. **The opportunity** — the thesis, tied back to the customer. Optional GMV/TAM (mark "Not covered this iteration" if skipped).
-5. **HMWs** — How-Might-We questions from canvas box 6, each mapped back to the opportunity (box) it addresses.
-6. **HMWs stack-ranked** — ordered by impact (canvas box 7), to tee up ideation.
+5. **HMWs** — How-Might-We questions from the HMW box, each mapped back to the box it addresses (by name).
+6. **HMWs stack-ranked** — ordered by impact (stack-rank box), to tee up ideation.
 
 ---
 

@@ -7,7 +7,7 @@ Run **Step 1 · Generate** of the Opportunity Workflow. Follow the full instruct
 
 Canvas title given by the user: **$ARGUMENTS**
 
-**The template is designed — instantiate it, don't improvise it.** Section order, titles, tips, and ground rules come verbatim from `workflows/opportunity/templates/opportunity-canvas.md`. The Miro layout (every coordinate) comes from `workflows/opportunity/templates/opportunity-canvas.miro.json`.
+**The template is designed — instantiate it, don't improvise it.** Box titles, tips, and ground rules come verbatim from `workflows/opportunity/templates/opportunity-canvas.md` (boxes are deliberately unnumbered — refer to them by name). The Miro layout (every coordinate) comes from `workflows/opportunity/templates/opportunity-canvas.miro.json`.
 
 Process:
 
