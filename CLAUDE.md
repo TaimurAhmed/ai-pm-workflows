@@ -58,7 +58,7 @@ When a step requires a Word document:
 
 ## Available workflows
 
-- `workflows/mental-model/` — 🚧 **Mental Model Workflow** (WIP stub — orientation pass before any other workflow)
+- `workflows/mental-model/` — 🔨 **Mental Model Workflow** (WIP stub — orientation pass before any other workflow)
 - `workflows/opportunity-solution-tree/` — 🚧 **Opportunity Solution Tree Workflow** (stub — opportunity statements accumulate into a Torres-style tree)
 - `workflows/opportunity/` — ✅ **Opportunity Workflow** (Generate → Populate → Synthesise → Opportunity Brief)
 - `workflows/ideation/` — 🚧 **Ideation Workflow** (stub)

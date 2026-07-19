@@ -64,11 +64,11 @@ This repo is two things at once: a **real tool** I use at work, and a **portfoli
 
 ## Workflow index
 
-Workflows are added incrementally. Status: ✅ complete · 🚧 coming soon.
+Workflows are added incrementally. Status: ✅ complete · 🔨 work in progress · 🚧 coming soon.
 
 | Workflow | What it produces | Status |
 |---|---|---|
-| [Mental Model Workflow](workflows/mental-model/) | Orientation pass: ecosystem → company mission → product purpose → North Star | 🚧 WIP |
+| [Mental Model Workflow](workflows/mental-model/) | Orientation pass: ecosystem → company mission → product purpose → North Star | 🔨 WIP |
 | [Opportunity Solution Tree Workflow](workflows/opportunity-solution-tree/) | Opportunity statements from canvas runs, accumulated into a Torres-style tree | 🚧 Coming soon |
 | [Opportunity Workflow](workflows/opportunity/) | Opportunity Canvas → Opportunity Brief | ✅ Complete |
 | [Ideation Workflow](workflows/ideation/) | Stack-ranked HMWs → candidate solution directions | 🚧 Coming soon |
