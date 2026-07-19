@@ -1,6 +1,6 @@
 # Case study: Land a flat in Germany without the German
 
-**Date:** 19 July 2026 · **Team:** Taimur Ahmed (PM) + Claude (AI product team) · **Time-box:** two–three hours, here and there
+**Date:** 19 July 2026 · **Team:** Taimur Ahmed (PM) + claudi-boy 🤖❤️ (AI product team) · **Time-box:** two–three hours, here and there
 
 ## The one-liner
 
