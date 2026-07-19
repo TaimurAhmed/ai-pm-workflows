@@ -62,8 +62,8 @@ The full template lives in [`templates/opportunity-brief.template.md`](templates
 
 ## Worked example
 
-A real end-to-end run — walked journey → populated canvas → brief, answering a live interview prompt:
-**[Checkatrade: Barriers to repeat usage](examples/checkatrade-repeat-usage.md)**
+A real end-to-end run — walked journey → populated canvas → brief, against a live, time-boxed product challenge:
+**[Checkatrade: Barriers to repeat usage](../../case-studies/checkatrade-barriers-to-repeat-usage/)**
 
 ---
 

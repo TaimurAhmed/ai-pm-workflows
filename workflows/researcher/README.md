@@ -35,4 +35,4 @@ Every dispatch returns a **fact-pack** saved to the run folder (`runs/<slug>/fac
 
 It operationalises **flag, rationalise, defer** with a fourth verb: *fill*. Gaps get flagged *and* filled in parallel, without breaking the time-box.
 
-**Proven live (2026-07-05, first run):** mid-canvas dispatch on Checkatrade's revenue model overturned the working assumption (membership-only → transactional marketplace transition) and rewrote the business case; a second sweep of filings surfaced the company's own strategy language and financials, both of which ended up in the final brief. See [the worked example](../opportunity/examples/checkatrade-repeat-usage.md).
+**Proven live (2026-07-05, first run):** mid-canvas dispatch on Checkatrade's revenue model overturned the working assumption (membership-only → transactional marketplace transition) and rewrote the business case; a second sweep of filings surfaced the company's own strategy language and financials, both of which ended up in the final brief. See [the case study](../../case-studies/checkatrade-barriers-to-repeat-usage/).

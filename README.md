@@ -70,7 +70,7 @@ Workflows are added incrementally. Status: ✅ complete · 🚧 coming soon.
 | Case study | What it shows | Artifacts |
 |---|---|---|
 | [Land a flat in Germany without the German](case-studies/land-a-flat-in-germany-without-the-german/) | Full Opportunity Workflow run in Pair-AI Dogfooding mode: Miro canvas → evidence-backed prioritisation → designed brief | Brief (.docx) · board · golden template |
-| [Checkatrade: barriers to repeat usage](workflows/opportunity/examples/checkatrade-repeat-usage.md) | The first live run — walked user journey → canvas → RICE → Now/Next/Later/Parked roadmap, answering a real interview prompt | Worked-example brief (markdown) |
+| [Checkatrade: barriers to repeat usage](case-studies/checkatrade-barriers-to-repeat-usage/) | The first live run — a cold domain worked to an evidence-backed roadmap in a 90-minute time-box: walked user journey → canvas → RICE → Now/Next/Later/Parked, with mid-canvas research on real company filings | Brief · populated canvas · walked journey · fact-packs |
 
 ---
 

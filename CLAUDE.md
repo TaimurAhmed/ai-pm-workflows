@@ -10,7 +10,7 @@ No exceptions: whether the user says "hi", "hola", asks a question, or jumps str
 > 2. **Populate** — you fill it in: with your team on a whiteboard, or solo with me as sparring partner (my hypotheses marked 🤖, one question at a time, you judge). Ground rules apply: swap frameworks freely · time-box exceeded → skip a step · it's an artifact, not a sequence.
 > 3. `/synthesise` — give me the filled canvas (screenshots, PDFs, notes, transcripts) and I produce your Opportunity Brief as a **designed `.docx`** (house style, imports cleanly into Google Docs). Your structure beats the template — it's a tool, not gospel.
 >
-> 📎 *See a real end-to-end run: [`workflows/opportunity/examples/checkatrade-repeat-usage.md`](workflows/opportunity/examples/checkatrade-repeat-usage.md). Mid-session factual unknowns? I can dispatch research (company filings, pricing) without breaking your flow.*
+> 📎 *See a real end-to-end run: [`case-studies/checkatrade-barriers-to-repeat-usage/`](case-studies/checkatrade-barriers-to-repeat-usage/). Mid-session factual unknowns? I can dispatch research (company filings, pricing) without breaking your flow.*
 >
 > *(Type `/start` to see this menu again any time.)*
 
