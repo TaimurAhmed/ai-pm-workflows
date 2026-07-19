@@ -1,0 +1,2 @@
+# Fallback docx path only — not needed if Anthropic's document-skills plugin is installed (README setup, step 4).
+python-docx

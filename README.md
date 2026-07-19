@@ -26,7 +26,27 @@ This repo is two things at once: a **real tool** I use at work, and a **portfoli
    /plugin marketplace add anthropics/skills
    /plugin install document-skills
    ```
-   Then restart the session (skills load at startup). Without this, briefs still work — the workflow falls back to `python-docx` with the built-in house style (`pip3 install python-docx` if prompted).
+   Then restart the session (skills load at startup). Without this, briefs still work — the workflow falls back to [`python-docx`](https://python-docx.readthedocs.io/) with the built-in house style. To install it:
+   ```bash
+   pip3 install -r requirements.txt
+   ```
+   ⚠️ **On macOS (Homebrew/recent Python) that command may fail with `externally-managed-environment`.** That's Python protecting system packages ([PEP 668](https://peps.python.org/pep-0668/)), not a broken setup — use a virtual environment instead:
+   ```bash
+   python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
+   ```
+   (Claude will find and use the venv's Python automatically when generating your brief.)
+5. **Optional — Miro boards:** `/generate` can build your Opportunity Canvas as a real **Miro board** (from a hand-tuned golden template, in a single call) instead of markdown — but only if a Miro MCP is connected. Two ways, run inside Claude Code:
+   - **Official Miro plugin** (MCP + skills):
+     ```
+     /plugin marketplace add miroapp/miro-ai
+     /plugin install miro@miro-ai
+     ```
+   - **Or the remote MCP server directly** (OAuth in your browser on first use):
+     ```bash
+     claude mcp add --transport http miro https://mcp.miro.com
+     ```
+   No Miro? Skip this — everything works in markdown, and you can paste a bulleted canvas into any whiteboard tool.
+6. **Optional — PDF export:** briefs are `.docx` (they import cleanly into Google Docs). If you want a PDF alongside, either export from Word/Google Docs (one click) or install [LibreOffice](https://www.libreoffice.org/) (~1 GB — `brew install --cask libreoffice`) and Claude can render PDFs locally.
 
 ### Run your first workflow (Opportunity)
 
