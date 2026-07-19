@@ -7,7 +7,7 @@ Run **Step 1 · Generate** of the Opportunity Workflow. Follow the full instruct
 
 Canvas title given by the user: **$ARGUMENTS**
 
-**The template is designed — instantiate it, don't improvise it.** Box titles, tips, and ground rules come verbatim from `workflows/opportunity/templates/opportunity-canvas.md` (boxes are deliberately unnumbered — refer to them by name). The Miro layout (every coordinate) comes from `workflows/opportunity/templates/opportunity-canvas.miro.json`.
+**The template is designed — instantiate it, don't improvise it.** Box titles, tips, and ground rules come verbatim from `workflows/opportunity/templates/opportunity-canvas.md` (boxes are deliberately unnumbered — refer to them by name). **The Miro board comes from the golden template `workflows/opportunity/templates/opportunity-canvas.miro.dsl`: substitute `{{TITLE}}`, then send its non-comment lines in ONE `layout_create` call.** Zero geometry reasoning — never re-derive the layout. Then `layout_read` back to verify.
 
 Process:
 

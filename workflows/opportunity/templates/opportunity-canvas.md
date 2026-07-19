@@ -5,7 +5,7 @@ with opportunity framing after Teresa Torres (problems + desires = opportunities
 pains/gains after Osterwalder, empathy mapping after Gray/XPLANE.
 
 Boxes are deliberately UNNUMBERED: there is no prescribed order — see ground rules.
-Refer to boxes by name. The Miro layout lives in opportunity-canvas.miro.json.
+Refer to boxes by name. The Miro golden template lives in opportunity-canvas.miro.dsl.
 -->
 
 # Opportunity Canvas: <run folder name>

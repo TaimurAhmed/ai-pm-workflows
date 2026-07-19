@@ -65,6 +65,15 @@ Workflows are added incrementally. Status: ✅ complete · 🚧 coming soon.
 
 ---
 
+## Case studies — real runs, real outputs
+
+| Case study | What it shows | Artifacts |
+|---|---|---|
+| [Land a flat in Germany without the German](case-studies/land-a-flat-in-germany-without-the-german/) | Full Opportunity Workflow run in Pair-AI Dogfooding mode: Miro canvas → evidence-backed prioritisation → designed brief | Brief (.docx) · board · golden template |
+| [Checkatrade: barriers to repeat usage](workflows/opportunity/examples/checkatrade-repeat-usage.md) | The first live run — walked user journey → canvas → RICE → Now/Next/Later/Parked roadmap, answering a real interview prompt | Worked-example brief (markdown) |
+
+---
+
 ## The mental model: a double diamond with canvases at the waists
 
 These workflows map to the classic **double diamond** (discover → define → develop → deliver). **My canvases sit at the pinch points — the waists — not stretched across the whole diamonds.**
