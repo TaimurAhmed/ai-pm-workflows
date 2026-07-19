@@ -20,7 +20,13 @@ This repo is two things at once: a **real tool** I use at work, and a **portfoli
    ```bash
    cd ai-pm-workflows && claude
    ```
-   Claude reads [`CLAUDE.md`](CLAUDE.md) automatically, so it already knows how to run the workflows.
+   Claude reads [`CLAUDE.md`](CLAUDE.md) automatically, so it already knows how to run the workflows. *(First run will ask you to `/login`.)*
+4. **Optional — better Word output:** install Anthropic's document skills so `/synthesise` can use the full `docx` toolchain:
+   ```
+   /plugin marketplace add anthropics/skills
+   /plugin install document-skills
+   ```
+   Then restart the session (skills load at startup). Without this, briefs still work — the workflow falls back to `python-docx` with the built-in house style (`pip3 install python-docx` if prompted).
 
 ### Run your first workflow (Opportunity)
 
