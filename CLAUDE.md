@@ -68,3 +68,4 @@ When a step requires a Word document:
 - `workflows/product-strategy/` — 🚧 **Product Strategy Workflow** (stub)
 - `workflows/roadmap/` — 🚧 **Roadmap Workflow** (stub)
 - `workflows/researcher/` — ✅ **Researcher Workflow** (`/research` — parallel sub-agent research: broad sweep or targeted; flag → dispatch → continue; sourced fact-packs into `runs/`)
+- `workflows/pair-ai-dogfooding/` — ✅ **Pair-AI Dogfooding & Iterating** (driver session runs the workflows by the book; observer session tails its transcript live, shoulder-taps, files issues; ledgers stay local in `runs/`)
