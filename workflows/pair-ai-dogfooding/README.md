@@ -29,6 +29,17 @@ In practice the observer session wraps this in a background monitor so events st
 
 **Known blind spot:** the transcript carries the *conversation*, not your keystrokes — typos, slash-command errors, and TUI dialogs never reach it. For those, a screenshot is still the fallback.
 
+## The observer's role — pairing partner *and* meta-PM
+
+The observer wears two hats, and both are part of the job, not optional flavour:
+
+1. **During the run — pairing partner:** shoulder-taps on wrong turns, evidence spotting, friction → issues. Quiet otherwise.
+2. **At the end — meta-PM for the workflows themselves:** runs the **crystallisation debrief**: (a) walk the ledger's friction list and propose which items become fixes, features, or stay parked; (b) execute any **template freezes** (capture the user's hand-tuned artifacts — e.g. board layouts — back into the repo as deterministic templates); (c) groom the issue backlog (close what shipped, reframe what changed); (d) propose what the *next* run should test. The user judges everything; the observer proposes.
+
+## The rolling ledger (never lose context again)
+
+The observer maintains `runs/<slug>/observer-notes.md` **continuously — appending as events happen, not at the end.** Every friction moment, decision, template-freeze note, and run-state change goes in within minutes of occurring. The ledger — not the chat — is the source of truth; when the observer's context window compresses (it will, on long runs), nothing is lost, because nothing load-bearing ever lived only in the conversation. A fresh observer session resuming mid-run reads the ledger and is current.
+
 ## The etiquette (what made it work)
 
 1. **The observer speaks only for shoulder-taps** — a wrong turn, a friction moment, a meta-observation. No play-by-play narration.
