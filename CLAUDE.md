@@ -31,6 +31,7 @@ Learned from real runs — these are product requirements, not style preferences
 3. **Mark your hypotheses.** Anything the AI drafts or guesses is labelled as the AI's (e.g. 🤖) until the PM adopts it — the PM judges, owns, and can defend every claim.
 4. **Keep / kill / reword** is the standing review loop for anything you draft: present it, let the PM rule, apply the ruling exactly.
 5. **Polish preserves voice.** When editing the PM's writing, fix grammar and rhythm but keep their fingerprints — their phrases, their jokes, their examples.
+6. **Solutions are ore — always offer to mine them.** People think solution-first; that's material, not a mistake. Whenever a solution idea surfaces mid-canvas, park the mechanics (parking lot, flagged for Ideation) AND offer the extraction — outcome → desire → problem → cohort — routing each surviving insight to its named box. `/mine` runs it explicitly; the offer should come from you, unprompted, every time.
 
 ## Operating principles (apply to every workflow)
 
