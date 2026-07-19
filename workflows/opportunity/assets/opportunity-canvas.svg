@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-80 -640 4880 3660" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <!-- Rendered from templates/opportunity-canvas.miro.dsl (the golden template).
+       Cell geometry = the DSL's frozen coordinates; tips abbreviated for legibility.
+       Edit the DSL first — this visual follows it. -->
+  <rect x="-80" y="-640" width="4880" height="3660" fill="#FFFFFF"/>
+
+  <!-- Ground rules banner (red, dashed) -->
+  <rect x="-28" y="-561" width="3960" height="476" fill="none" stroke="#BD0A0A" stroke-width="5" stroke-dasharray="28 18"/>
+  <text x="20" y="-460" font-size="72" font-weight="bold" fill="#BD0A0A" text-decoration="underline">Ground rules</text>
+  <text x="20" y="-368" font-size="56" fill="#BD0A0A">• Slot frameworks in and out freely — stack-rank on SWAGs? Cool. Quotes over JTBD? Happy days.</text>
+  <text x="20" y="-296" font-size="56" fill="#BD0A0A">• Time-box exceeded? Skip a step — bias to action.</text>
+  <text x="20" y="-224" font-size="56" fill="#BD0A0A">• This is not a sequence — the boxes carry no numbers on purpose. Start anywhere, jump anywhere.</text>
+  <text x="20" y="-152" font-size="56" fill="#BD0A0A">• A tool, not gospel — depart from any box whenever your thinking argues better.</text>
+
+  <!-- Header -->
+  <rect x="0" y="0" width="3224" height="200" fill="#EFEEEA" stroke="#A8A49A" stroke-width="4"/>
+  <text x="40" y="112" font-size="88" font-weight="bold" fill="#000000">Opportunity Canvas: &lt;your working title&gt;</text>
+  <text x="40" y="180" font-size="50" fill="#333333">Team: _______&#160;&#160;&#160;·&#160;&#160;&#160;Time-box: _______</text>
+
+  <!-- Cells -->
+  <rect x="0" y="200" width="700" height="1200" fill="#F6F5F2" stroke="#A8A49A" stroke-width="4"/>
+  <rect x="700" y="200" width="725" height="600" fill="#F6F5F2" stroke="#A8A49A" stroke-width="4"/>
+  <rect x="700" y="800" width="725" height="600" fill="#F6F5F2" stroke="#A8A49A" stroke-width="4"/>
+  <rect x="1425" y="200" width="675" height="1200" fill="#F6F5F2" stroke="#A8A49A" stroke-width="4"/>
+  <rect x="0" y="1400" width="2100" height="600" fill="#F6F5F2" stroke="#A8A49A" stroke-width="4"/>
+  <rect x="2100" y="200" width="525" height="1800" fill="#F6F5F2" stroke="#A8A49A" stroke-width="4"/>
+  <rect x="2625" y="200" width="599" height="1800" fill="#F6F5F2" stroke="#A8A49A" stroke-width="4"/>
+
+  <!-- Why should the customer care? -->
+  <text x="36" y="300" font-size="76" font-weight="bold" fill="#000000">Why should the</text>
+  <text x="36" y="388" font-size="76" font-weight="bold" fill="#000000">customer care?</text>
+  <text x="36" y="462" font-size="52" font-weight="bold" fill="#000000">Problems + desires =</text>
+  <text x="36" y="524" font-size="52" font-weight="bold" fill="#000000">customer opportunity</text>
+  <text x="36" y="628" font-size="50" fill="#4F4F4F">Tip: motivation → desire +</text>
+  <text x="36" y="692" font-size="50" fill="#4F4F4F">problem = the opportunity.</text>
+  <text x="36" y="756" font-size="50" fill="#4F4F4F">A problem alone leads to</text>
+  <text x="36" y="820" font-size="50" fill="#4F4F4F">a salad; the opportunity</text>
+  <text x="36" y="884" font-size="50" fill="#4F4F4F">leads to a chocolate</text>
+  <text x="36" y="948" font-size="50" fill="#4F4F4F">fudge protein shake.</text>
+
+  <!-- Empathy mapping -->
+  <text x="736" y="300" font-size="76" font-weight="bold" fill="#000000">Empathy mapping</text>
+  <text x="736" y="392" font-size="50" fill="#4F4F4F">Tip: context first — what, why,</text>
+  <text x="736" y="456" font-size="50" fill="#4F4F4F">when, where, how — and</text>
+  <text x="736" y="520" font-size="50" fill="#4F4F4F">feelings. Then gains &amp; pains.</text>
+  <text x="736" y="584" font-size="50" fill="#4F4F4F">Stuck on the opportunity box?</text>
+  <text x="736" y="648" font-size="50" fill="#4F4F4F">Start here — this is never</text>
+  <text x="736" y="712" font-size="50" fill="#4F4F4F">a sequential process :)</text>
+
+  <!-- Target user & customer cohorts -->
+  <text x="736" y="900" font-size="76" font-weight="bold" fill="#000000">Target user &amp;</text>
+  <text x="736" y="988" font-size="76" font-weight="bold" fill="#000000">customer cohorts</text>
+  <text x="736" y="1080" font-size="50" fill="#4F4F4F">Tip: slice however it helps —</text>
+  <text x="736" y="1144" font-size="50" fill="#4F4F4F">channel, market, behaviour,</text>
+  <text x="736" y="1208" font-size="50" fill="#4F4F4F">attitude. You design for</text>
+  <text x="736" y="1272" font-size="50" fill="#4F4F4F">a specific cohort.</text>
+
+  <!-- Solutions today -->
+  <text x="1461" y="300" font-size="76" font-weight="bold" fill="#000000">Solutions today</text>
+  <text x="1461" y="392" font-size="50" fill="#4F4F4F">Tip: how do they solve</text>
+  <text x="1461" y="456" font-size="50" fill="#4F4F4F">it today? Competitors,</text>
+  <text x="1461" y="520" font-size="50" fill="#4F4F4F">workarounds — or they</text>
+  <text x="1461" y="584" font-size="50" fill="#4F4F4F">just live with it. Beat</text>
+  <text x="1461" y="648" font-size="50" fill="#4F4F4F">that, or keep it.</text>
+
+  <!-- Why the business should care -->
+  <text x="36" y="1504" font-size="76" font-weight="bold" fill="#000000">Why the business should care</text>
+  <text x="36" y="1592" font-size="50" fill="#4F4F4F">Tip: tie it to a number the business already tracks — what does doing nothing cost?</text>
+  <text x="36" y="1656" font-size="50" fill="#4F4F4F">A t-shirt sizing of reach and impact beats “big opportunity”.</text>
+
+  <!-- How might we…? -->
+  <text x="2136" y="300" font-size="76" font-weight="bold" fill="#000000">How might</text>
+  <text x="2136" y="388" font-size="76" font-weight="bold" fill="#000000">we…?</text>
+  <text x="2136" y="480" font-size="50" fill="#4F4F4F">Tip: turn learnings</text>
+  <text x="2136" y="544" font-size="50" fill="#4F4F4F">into HMWs — map</text>
+  <text x="2136" y="608" font-size="50" fill="#4F4F4F">each back to its box.</text>
+
+  <!-- Impact stack-rank -->
+  <text x="2661" y="300" font-size="76" font-weight="bold" fill="#000000">Impact</text>
+  <text x="2661" y="388" font-size="76" font-weight="bold" fill="#000000">stack-rank</text>
+
+  <!-- Ideation signpost (off the right edge) -->
+  <text x="3300" y="1040" font-size="112" fill="#9B9B9B">→ tees up ideation</text>
+  <text x="3300" y="1180" font-size="112" fill="#9B9B9B">(off-canvas)</text>
+
+  <!-- Parked Solutions frame (below the canvas) -->
+  <text x="8" y="2312" font-size="60" font-weight="bold" fill="#666666">Parked Solutions</text>
+  <rect x="0" y="2340" width="1400" height="560" fill="#FFFFFF" stroke="#A8A49A" stroke-width="4"/>
+  <text x="36" y="2450" font-size="50" fill="#4F4F4F">Solution ideas surfacing mid-canvas</text>
+  <text x="36" y="2514" font-size="50" fill="#4F4F4F">get parked here — then mined (/mine):</text>
+  <text x="36" y="2578" font-size="50" fill="#4F4F4F">outcome → desire → problem → cohort.</text>
+
+  <!-- Provenance -->
+  <text x="4780" y="2940" font-size="44" font-style="italic" fill="#999999" text-anchor="end">rendered from the golden template · templates/opportunity-canvas.miro.dsl</text>
+</svg>

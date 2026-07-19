@@ -16,7 +16,7 @@
 
 | Stage | Who | What happens | File |
 |---|---|---|---|
-| **1. Generate** | 🤖 Claude | Produces a blank, well-structured Opportunity Canvas for the team to fill in. | [`01-generate.md`](01-generate.md) |
+| **1. Generate** | 🤖 Claude | Produces a blank, well-structured Opportunity Canvas for the team to fill in — a **Miro board** built from the golden template in one call (if a Miro MCP is connected), or markdown. The title at this stage is a placeholder: the canvas earns its name on the way out, once you know what the opportunity actually is. | [`01-generate.md`](01-generate.md) |
 | **2. Populate** | 👥 Team | The team fills the canvas in offline, collaboratively (Miro / whiteboard). | [`02-populate.md`](02-populate.md) |
 | **3. Synthesise** | 🤖 Claude | Takes the messy populated canvas (screenshots, transcripts, chat) + the brief template and produces the Opportunity Brief `.docx`. | [`03-synthesise.md`](03-synthesise.md) |
 
@@ -25,6 +25,12 @@
 ---
 
 ## Canvas schema (overview)
+
+This is the empty canvas `/generate` hands back:
+
+![The empty Opportunity Canvas: a red dashed ground-rules banner on top; seven unnumbered boxes — why the customer cares, empathy mapping, cohorts, solutions today, why the business cares, how-might-we, impact stack-rank; a giant "tees up ideation (off-canvas)" signpost off the right edge; and a Parked Solutions frame below.](assets/opportunity-canvas.svg)
+
+*Rendered from the [golden Miro template](templates/opportunity-canvas.miro.dsl) — a layout frozen from a real run's hand-tuned board, which the AI instantiates in a **single call**: zero geometry guessing, zero wasted tokens.*
 
 The full schema lives in [`templates/opportunity-canvas.md`](templates/opportunity-canvas.md). The boxes — **deliberately unnumbered; start anywhere**:
 
@@ -35,6 +41,7 @@ The full schema lives in [`templates/opportunity-canvas.md`](templates/opportuni
 - **Why the business should care** — a number the business tracks; cost of doing nothing; t-shirt sizing or TAM.
 - **How might we…?** — HMW questions from across the canvas, each mapped back to its box by name.
 - **Impact stack-rank** — rank the HMWs; tees up ideation (off-canvas).
+- **Parked Solutions** *(frame, below the canvas)* — people think solution-first, and that's ore, not a mistake: mechanics get parked here, then mined (`/mine`: outcome → desire → problem → cohort) back into the boxes above.
 
 Ground rules sit outside the canvas: frameworks slot in and out freely · time-box exceeded → skip a step · no numbers, no sequence — an insight-capture artifact · a tool, not gospel.
 
@@ -60,9 +67,10 @@ A real end-to-end run — walked journey → populated canvas → brief, answeri
 
 ---
 
-## ⚠️ Template files you supply
+## ⚠️ Template files
 
-Two template files are referenced here. Working **example** versions ship in `templates/` so the workflow runs out of the box — **replace them with your own** when ready (each file is marked at the top):
+Working **example** versions ship in `templates/` so the workflow runs out of the box — **replace the first two with your own** when ready (each file is marked at the top):
 
-- [`templates/opportunity-canvas.md`](templates/opportunity-canvas.md) — the canvas schema Claude generates from.
+- [`templates/opportunity-canvas.md`](templates/opportunity-canvas.md) — the canvas schema Claude generates from (titles, tips, ground rules — the single source of truth for content).
 - [`templates/opportunity-brief.template.md`](templates/opportunity-brief.template.md) — the empty brief Claude fills during Synthesise.
+- [`templates/opportunity-canvas.miro.dsl`](templates/opportunity-canvas.miro.dsl) — the **golden Miro layout** `/generate` instantiates in one `layout_create` call (frozen from a hand-tuned real board; its header comments carry the sticky taxonomy and board-editing rules). Re-freeze it from a board you've re-tuned rather than editing coordinates by hand.
