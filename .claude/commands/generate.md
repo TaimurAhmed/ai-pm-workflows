@@ -11,7 +11,7 @@ Canvas title given by the user: **$ARGUMENTS**
 
 Process:
 
-1. If no title was given above, ask: "What should this canvas be called? A good title names who's struggling with what — e.g. 'Homeowners don't rebook after their first job'." Also ask (once, briefly) for the team involved and the session time-box; if the user skips these, proceed and flag them ⚠️ on the canvas rather than stalling.
+1. **The title is a placeholder — say so.** If no title was given, ask for "any sensible working name — the workflow will prompt you for a proper name once you've walked through what the opportunity actually is." Never coach or judge the title at entry (light the room first, name it on the way out). Also ask (once, briefly) for the team involved and the session time-box; if the user skips these, proceed and flag them ⚠️ on the canvas rather than stalling.
 2. **Ask where they want the canvas** (canvases live on whiteboards, so offer the best surface available):
    - **Miro board** — only offer if Miro MCP tools are available (check via ToolSearch for `miro`). Build it from the JSON layout spec: place cells (plain resizable shapes), titles, tips, and ground rules exactly where the spec says. Board named `Opportunity Canvas: <run folder name>`. **Verify before finishing:** read the board back and check nothing overlaps or crosses a cell edge; fix anything that does.
    - **Markdown file** — always available; the universal default. If no Miro MCP is connected, don't interrogate — just use markdown and add one line: "Tip: if you use Miro, connect the Miro MCP and I can build the board for you next time." Offer a paste-into-Miro variant on request (a plain bulleted list per section — Miro converts pasted bullets into stickies).
