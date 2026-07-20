@@ -71,7 +71,7 @@ Workflows are added incrementally. Status: ✅ complete · 🔨 work in progress
 | [Mental Model Workflow](workflows/mental-model/) | Orientation pass: ecosystem → company mission → product purpose → North Star | 🔨 WIP |
 | [Opportunity Solution Tree Workflow](workflows/opportunity-solution-tree/) | Opportunity statements from canvas runs, accumulated into a Torres-style tree | 🚧 Coming soon |
 | [Opportunity Workflow](workflows/opportunity/) | Opportunity Canvas → Opportunity Brief | ✅ Complete |
-| [Ideation Workflow](workflows/ideation/) | Stack-ranked HMWs → candidate solution directions | 🚧 Coming soon |
+| [Ideation Workflow](workflows/ideation/) | Stack-ranked HMWs → candidate solution directions | 🔨 WIP |
 | [Solution Workflow](workflows/solution/) | Solution Canvas → Solution Doc | 🚧 Coming soon |
 | [Assumption Mapping Workflow](workflows/assumption-mapping/) | Assumption map → riskiest assumptions to test | 🚧 Coming soon |
 | [Product Vision Workflow](workflows/product-vision/) | Vision narrative — where we're going and why it wins | 🚧 Coming soon |
