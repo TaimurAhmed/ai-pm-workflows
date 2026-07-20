@@ -16,6 +16,10 @@
 
 ---
 
+> **👐 Defaults, not doctrine.** Crazy 8s, brainwriting, and dot voting are my go-tos, not the law. Any UX designer worth their salt has strong, hard-won opinions on how to ideate — and a big part of the PM's job at this stage is to *make space for other people to bring their own way of doing it.* Hold the frame — the timebox, quantity over quality, democratising the room — but don't police the technique.
+
+---
+
 ## The AI's role flips depending on who's in the room
 
 | Mode | The AI is… | What it does |
