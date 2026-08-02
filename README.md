@@ -144,6 +144,9 @@ The instructions that drive this live as **markdown prompt files** inside each w
 ai-pm-workflows/
 ├── README.md                  ← you are here
 ├── CLAUDE.md                  ← entry point for Claude Code
+├── case-studies/              ← real end-to-end runs
+│   ├── checkatrade-barriers-to-repeat-usage/
+│   └── land-a-flat-in-germany-without-the-german/
 └── workflows/
     ├── opportunity/           ← ✅ Opportunity Workflow
     │   ├── README.md
@@ -152,9 +155,15 @@ ai-pm-workflows/
     │   ├── 03-synthesise.md
     │   └── templates/
     │       ├── opportunity-canvas.md
-    │       └── opportunity-brief.template.md
-    └── solution/              ← 🚧 Solution Workflow (stub)
-        └── README.md
+    │       ├── opportunity-canvas.miro.dsl
+    │       ├── opportunity-brief.template.md
+    │       └── brief-style.py
+    ├── researcher/            ← ✅ Researcher Workflow
+    ├── pair-ai-dogfooding/    ← ✅ Pair-AI Dogfooding & Iterating
+    ├── mental-model/          ← 🔨 Mental Model Workflow (WIP)
+    ├── ideation/              ← 🔨 Ideation Workflow (WIP)
+    └── …                      ← 🚧 stubs: solution, assumption-mapping, product-vision,
+                                  product-strategy, roadmap, opportunity-solution-tree
 ```
 
 ---
