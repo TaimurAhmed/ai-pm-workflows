@@ -68,7 +68,7 @@ Workflows are added incrementally. Status: ✅ complete · 🔨 work in progress
 
 | Workflow | What it produces | Status |
 |---|---|---|
-| [Mental Model Workflow](workflows/mental-model/) | Orientation pass: ecosystem → company mission → product purpose → North Star | 🔨 WIP |
+| [Mental Model Workflow](workflows/mental-model/) | `/mental-model` — orientation one-pager: ecosystem → company → product → product in scope + North Star → where to focus; PM leads, AI verifies in the sources | ✅ Complete |
 | [Opportunity Solution Tree Workflow](workflows/opportunity-solution-tree/) | Opportunity statements from canvas runs, accumulated into a Torres-style tree | 🚧 Coming soon |
 | [Opportunity Workflow](workflows/opportunity/) | Opportunity Canvas → Opportunity Brief | ✅ Complete |
 | [Ideation Workflow](workflows/ideation/) | Stack-ranked HMWs → candidate solution directions | 🔨 WIP |
@@ -160,7 +160,7 @@ ai-pm-workflows/
     │       └── brief-style.py
     ├── researcher/            ← ✅ Researcher Workflow
     ├── pair-ai-dogfooding/    ← ✅ Pair-AI Dogfooding & Iterating
-    ├── mental-model/          ← 🔨 Mental Model Workflow (WIP)
+    ├── mental-model/          ← ✅ Mental Model Workflow (Research → Build → Synthesise)
     ├── ideation/              ← 🔨 Ideation Workflow (WIP)
     └── …                      ← 🚧 stubs: solution, assumption-mapping, product-vision,
                                   product-strategy, roadmap, opportunity-solution-tree

@@ -4,7 +4,8 @@ description: "Show the AI PM Workflows menu"
 
 Show the user this menu, verbatim, in their language — then stop and wait:
 
-> 👋 **AI PM Workflows** — three steps:
+> 👋 **AI PM Workflows** — three steps (plus a step zero):
+> 0. `/mental-model <company>` — new company, case study or interview? Build the one-page mental model first: research in parallel, then five sections you lead and I check against the sources.
 > 1. `/generate <any working name>` — I hand back a blank Opportunity Canvas: a **Miro board** (if a Miro MCP is connected — README setup step 5 shows how) or markdown.
 >    *Drop in any sensible placeholder — the workflow prompts you for a proper name once you've walked through what the opportunity actually is.*
 > 2. **Populate** — you fill it in: with your team on a whiteboard, or solo with me as sparring partner (my hypotheses marked 🤖, one question at a time, you judge). Ground rules apply: swap frameworks freely · time-box exceeded → skip a step · it's an artifact, not a sequence.

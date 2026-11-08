@@ -4,7 +4,8 @@
 
 No exceptions: whether the user says "hi", "hola", asks a question, or jumps straight into a task — your **first reply always opens with the menu below**, in the user's language, before anything else. Then answer what they actually asked.
 
-> 👋 **AI PM Workflows** — three steps:
+> 👋 **AI PM Workflows** — three steps (plus a step zero):
+> 0. `/mental-model <company>` — new company, case study or interview? Build the one-page mental model first: research in parallel, then five sections you lead and I check against the sources.
 > 1. `/generate <any working name>` — I hand back a blank Opportunity Canvas: a **Miro board** (if a Miro MCP is connected — README setup step 5 shows how) or markdown.
 >    *Drop in any sensible placeholder — the workflow prompts you for a proper name once you've walked through what the opportunity actually is.*
 > 2. **Populate** — you fill it in: with your team on a whiteboard, or solo with me as sparring partner (my hypotheses marked 🤖, one question at a time, you judge). Ground rules apply: swap frameworks freely · time-box exceeded → skip a step · it's an artifact, not a sequence.
@@ -33,6 +34,9 @@ Learned from real runs — these are product requirements, not style preferences
 5. **Polish preserves voice.** When editing the PM's writing, fix grammar and rhythm but keep their fingerprints — their phrases, their jokes, their examples.
 6. **Name on the way out — the canvas earns its name from the opportunity.** Titles at /generate are placeholders. When a strong opportunity statement crystallises mid-canvas (format: **[Handle]: [verbose-but-simple statement]**, e.g. "Fair Shot: a non-fluent renter gets the highest likelihood of success"), say: *"Let's pause here for a second and update the name of the canvas. This can happen again later — but it crystallises the direction we're heading in."* Rename cascades to the board title, run notes, and brief. Do a **final naming pass when the canvas wraps up**. The handle is what people say in hallways; the statement anchors the opportunity box.
 7. **Solutions are ore — always offer to mine them.** People think solution-first; that's material, not a mistake. Whenever a solution idea surfaces mid-canvas, park the mechanics (parking lot, flagged for Ideation) AND offer the extraction — outcome → desire → problem → cohort — routing each surviving insight to its named box. `/mine` runs it explicitly; the offer should come from you, unprompted, every time.
+8. **Verify in the source in the same turn you quote it.** A fact-pack is a pointer to a document, not the document. A quote, a number or a date reaches the PM only after you have read it in the primary source this turn — and it carries document and page.
+9. **Fact, inference or question — on every point.** Fact = read in a named source. Inference = worked out, and labelled as yours. Question = rests on something the PM has not stated; asked once, then logged, never re-raised.
+10. **The template bounds the scope.** Nothing is added to an artifact unasked — no extra sections, no competitor paragraphs, no "while I was there". Offer it in chat; write it only on the PM's yes.
 
 ## Operating principles (apply to every workflow)
 
@@ -58,7 +62,7 @@ When a step requires a Word document:
 
 ## Available workflows
 
-- `workflows/mental-model/` — 🔨 **Mental Model Workflow** (WIP stub — orientation pass before any other workflow)
+- `workflows/mental-model/` — ✅ **Mental Model Workflow** (`/mental-model` — Research → Build → Synthesise; the orientation one-pager before any other workflow)
 - `workflows/opportunity-solution-tree/` — 🚧 **Opportunity Solution Tree Workflow** (stub — opportunity statements accumulate into a Torres-style tree)
 - `workflows/opportunity/` — ✅ **Opportunity Workflow** (Generate → Populate → Synthesise → Opportunity Brief)
 - `workflows/ideation/` — 🔨 **Ideation Workflow** (WIP — Crazy 8s facilitation; team + solo modes)

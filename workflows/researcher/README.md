@@ -31,6 +31,12 @@ Every dispatch returns a **fact-pack** saved to the run folder (`runs/<slug>/fac
 - **Claude Code:** `/research <topic or question>` — dispatches a background sub-agent and keeps the session moving.
 - **Anywhere else:** open a second Claude conversation with the research prompt while you keep working in the first.
 
+## Techniques (learned in live runs)
+
+- **Investor PDFs when downloads are blocked.** Open an HTML page on the company's investor-relations origin in the browser pane, then load pdf.js from a CDN in the page and fetch the PDF from the same origin; extract each page's text layer and search it. Direct navigation to a PDF URL often fails in the pane; the same-origin fetch does not.
+- **Numbers that live in a chart.** The text layer only yields the footnote. Render the page to a canvas in the browser pane and screenshot it; read the figure off the image and cite the page.
+- **One agent, one tab.** Parallel research sub-agents share the driver's browser profile. Each agent opens its own tab with `tabs_create` and works only in that `tabId`; agents never close the pane. The driver treats any tab it did not open as foreign and never assumes the PM is driving it.
+
 ## Why it matters
 
 It operationalises **flag, rationalise, defer** with a fourth verb: *fill*. Gaps get flagged *and* filled in parallel, without breaking the time-box.
